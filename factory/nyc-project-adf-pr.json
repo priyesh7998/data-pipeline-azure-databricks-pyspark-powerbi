@@ -1,0 +1,15 @@
+{
+	"name": "nyc-project-adf-pr",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f00c95b3-609c-45bc-83ea-8d70d89882c9",
+		"tenantId": "c635b69a-41ef-487c-967d-7cefa9e2d3e2"
+	}
+}
