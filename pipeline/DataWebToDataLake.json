@@ -142,7 +142,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"p_filename": {
-														"value": "month-@{item()}-data",
+														"value": "month-@{item()}-data.parquet",
 														"type": "Expression"
 													}
 												}
@@ -211,7 +211,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"p_filename": {
-														"value": "month-@{item()}-data",
+														"value": "month-@{item()}-data.parquet",
 														"type": "Expression"
 													}
 												}
