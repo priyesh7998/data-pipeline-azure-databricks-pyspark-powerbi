@@ -5,11 +5,20 @@
 			"referenceName": "ls_datalake",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"p_filename": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().p_filename",
+					"type": "Expression"
+				},
 				"folderPath": "trips2023data",
 				"fileSystem": "bronze"
 			},

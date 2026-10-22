@@ -139,7 +139,13 @@
 										"outputs": [
 											{
 												"referenceName": "nyc_taxi_sink",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"p_filename": {
+														"value": "month-@{item()}-data",
+														"type": "Expression"
+													}
+												}
 											}
 										]
 									}
@@ -202,7 +208,13 @@
 										"outputs": [
 											{
 												"referenceName": "nyc_taxi_sink",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"p_filename": {
+														"value": "month-@{item()}-data",
+														"type": "Expression"
+													}
+												}
 											}
 										]
 									}
